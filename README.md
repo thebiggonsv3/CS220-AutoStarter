@@ -1,12 +1,14 @@
-# CS 220 Auto Submitter
+# THIS IS A FORK. THE FILE HAS NOT YET BEEN MODIFIED. 
 
-A Windows batch script that handles the submission and completion of labs for CS220: it creates the lab's `README.md` from the course template, optionally commits and pushes to GitHub, zips the solution directory remotely, and copies the finished `.zip` back to your computer.
+# CS 220 Auto Starter
+
+A Windows batch script that handles the starting sequence for CS220: it pulls the relevant lab files from the master file, while optionally commiting and pushing to GitHub.
 
 ## Installation
 
-Download `submit.bat` onto your computer
+Download `start.bat` onto your computer
 
-Open `submit.bat` in a text editor and edit the two variables at the top:
+Open `start.bat` in a text editor and edit the two variables at the top:
 
 ```bat
 set OUT_DIR=C:\Users\user\Downloads\labs
